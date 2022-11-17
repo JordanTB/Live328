@@ -24,8 +24,8 @@ ul {
   font-weight: normal;
 }
 
-ol,
-ul {
+ol a,
+ul a {
   list-style: none;
 }
 

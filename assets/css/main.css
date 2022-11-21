@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: "Roboto", Helvetica, Arial, sans;
+}
+
+.all-content {
+  position: relative;
+  min-height: 100vh;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: 80px;
+  padding-bottom: 80px;
+  background-color: #59ccf2;
+}
+header h1 {
+  display: flex;
+  place-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+header ul {
+  display: flex;
+  font-weight: light;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+}
+header .navHeader * {
+  color: white;
+  text-shadow: 1px 1px 3px rgb(110, 110, 110);
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  place-content: center;
+  padding-bottom: 100px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto, auto);
+  background-color: grey;
+}
+footer .footerNav {
+  grid-column: 2;
+  margin: auto 0;
+  text-align: left;
+}
+footer .footerNav ul {
+  text-decoration: none;
+  list-style: none;
+}
+footer .footerNav * {
+  color: white;
+  text-shadow: 1px 1px 3px rgb(110, 110, 110);
+  text-decoration: none;
+}
+footer .col1 {
+  color: white;
+  grid-column: 3;
+  margin: auto 0;
+}
+footer .col2 {
+  color: white;
+  grid-column: 4;
+  margin: auto 0;
+}/*# sourceMappingURL=main.css.map */

@@ -34,7 +34,7 @@ header ul {
   justify-content: space-evenly;
 }
 header .navHeader * {
-  color: white;
+  color: #f3fbfe;
   text-shadow: 1px 1px 3px rgb(110, 110, 110);
   text-decoration: none;
 }
@@ -52,7 +52,7 @@ footer {
   height: 100px;
   display: grid;
   grid-template-columns: repeat(auto, auto);
-  background-color: grey;
+  background-color: #01b4ef;
 }
 footer .footerNav {
   grid-column: 2;
@@ -64,17 +64,17 @@ footer .footerNav ul {
   list-style: none;
 }
 footer .footerNav * {
-  color: white;
+  color: #f3fbfe;
   text-shadow: 1px 1px 3px rgb(110, 110, 110);
   text-decoration: none;
 }
 footer .col1 {
-  color: white;
+  color: #f3fbfe;
   grid-column: 3;
   margin: auto 0;
 }
 footer .col2 {
-  color: white;
+  color: #f3fbfe;
   grid-column: 4;
   margin: auto 0;
 }/*# sourceMappingURL=main.css.map */

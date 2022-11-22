@@ -24,9 +24,18 @@ ul {
   font-weight: normal;
 }
 
+h1 a,
 ol a,
 ul a {
   list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+h1 a:hover,
+ol a:hover,
+ul a:hover {
+  color: #a6a6a6;
 }
 
 img {

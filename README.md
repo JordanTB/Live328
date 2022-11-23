@@ -22,6 +22,6 @@ The mission of Live328 is to educate our local communities about human trafficki
 
 ## Our Values
 
-- Nobody should be held in slavery
-- Education is one key to fighting human trafficking
+- Education & awareness are major ways to fight human trafficking
 - Human trafficking can be eradicated
+- Nobody should be held in slavery

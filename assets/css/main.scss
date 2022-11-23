@@ -24,6 +24,7 @@ header {
     float: left;
     font-size: 2rem;
     font-weight: bold;
+    width: 50vh;
   }
   .header-nav {
     height: 90px;
@@ -38,4 +39,23 @@ header {
   li:hover {
     color: #dfdfdf;
   }
+}
+
+//Content Styling
+main p {
+  width: 100%;
+  padding: 10rem 0;
+  margin: auto;
+  text-align: center;
+}
+
+//footer styling
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 90px;
+  padding-bottom: 15px;
 }

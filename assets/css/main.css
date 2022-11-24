@@ -8,7 +8,6 @@ html {
 header {
   background-color: #0074aa;
   height: 90px;
-  padding: 10px 15px 0 15px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -23,10 +22,9 @@ header h1 {
   float: left;
   font-size: 2rem;
   font-weight: bold;
-  width: 50vh;
 }
-header .header-nav {
-  height: 90px;
+header .header-nav ul {
+  display: flex;
 }
 header .header-nav li {
   display: inline;

@@ -11,7 +11,6 @@ html {
 header {
   background-color: #0074aa;
   height: 90px;
-  padding: 10px 15px 0 15px;
   position: sticky;
   top: 0;
   left: 0;
@@ -24,10 +23,11 @@ header {
     float: left;
     font-size: 2rem;
     font-weight: bold;
-    width: 50vh;
   }
   .header-nav {
-    height: 90px;
+    ul {
+      display: flex;
+    }
     li {
       display: inline;
       font-weight: bold;

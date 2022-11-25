@@ -15,7 +15,6 @@ header {
   z-index: 10;
   top: 0;
   left: 0;
-  box-shadow: 0px 0px 10px black;
 }
 header a {
   text-decoration: none;
@@ -61,8 +60,16 @@ main h2 {
   font-size: 4rem;
   font-weight: bold;
 }
-main p {
+main .section1 p,
+main .section2 p,
+main .section3 p {
   padding: 10rem 0;
+  margin: 2rem;
+}
+main .section2 {
+  width: 100%;
+  color: white;
+  background-color: #0074aa;
 }
 
 .footer-content {
@@ -70,34 +77,33 @@ main p {
   bottom: 0;
   left: 0;
   width: 100%;
-  text-align: center;
-  height: 90px;
-  padding-top: 15px;
-  padding-bottom: 2rem;
+  font-size: small;
+  height: auto;
+  padding: 10px 5% 0 5%;
   background-color: lightgray;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  z-index: -1;
+  z-index: 1;
 }
-.footer-content .contact div {
-  display: block;
-  grid-column: 0/1;
-  text-align: center;
-}
-.footer-content .contact ul a {
-  color: #000;
+.footer-content ul * {
   text-decoration: none;
 }
-.footer-content .contact ul a :hover {
-  color: rgb(128, 128, 128);
+.footer-content ul * a {
+  color: black;
+}
+.footer-content ul * a:hover {
+  color: #0074aa;
+}
+.footer-content .contact div {
+  position: inherit;
+  display: block;
+  grid-column: 0/1;
 }
 .footer-content .info div {
   display: block;
   grid-column: 1/2;
-  text-align: center;
 }
-.footer-content .footer-nav nav {
+.footer-content .footer-nav div {
   display: block;
   grid-column: 2/3;
-  text-align: left;
 }/*# sourceMappingURL=main.css.map */

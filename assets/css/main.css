@@ -64,7 +64,6 @@ main .section1 p,
 main .section2 p,
 main .section3 p {
   padding: 10rem 0;
-  margin: 2rem;
 }
 main .section2 {
   width: 100%;
@@ -79,10 +78,12 @@ main .section2 {
   width: 100%;
   font-size: small;
   height: auto;
-  padding: 10px 5% 0 5%;
+  padding: 0 5% 12px 5%;
   background-color: lightgray;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
   z-index: 1;
 }
 .footer-content ul * {
@@ -98,12 +99,32 @@ main .section2 {
   position: inherit;
   display: block;
   grid-column: 0/1;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.footer-content .contact {
+  margin: 1rem;
+  border: #0074aa 2px solid;
+}
+.footer-content .info {
+  text-align: center;
+  margin: 1rem;
+  border: #0074aa 2px solid;
 }
 .footer-content .info div {
   display: block;
   grid-column: 1/2;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.footer-content .footer-nav {
+  margin: 1rem;
+  border: #0074aa 2px solid;
 }
 .footer-content .footer-nav div {
   display: block;
   grid-column: 2/3;
+  width: 5rem;
 }/*# sourceMappingURL=main.css.map */

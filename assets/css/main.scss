@@ -66,7 +66,6 @@ main {
   .section2 p,
   .section3 p {
     padding: 10rem 0;
-    margin: 2rem;
   }
   .section2 {
     width: 100%;
@@ -83,10 +82,11 @@ main {
   width: 100%;
   font-size: small;
   height: auto;
-  padding: 10px 5% 0 5%;
+  padding: 0 5% 12px 5%;
   background-color: lightgray;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
   z-index: 1;
   ul * {
     text-decoration: none;
@@ -101,13 +101,29 @@ main {
     position: inherit;
     display: block;
     grid-column: 0 / 1;
+    width: max-content;
   }
-  .info div {
-    display: block;
-    grid-column: 1 / 2;
+  .contact {
+    margin: 1rem;
+    border: #0074aa 2px solid;
   }
-  .footer-nav div {
-    display: block;
-    grid-column: 2 / 3;
+  .info {
+    text-align: center;
+    margin: 1rem;
+    border: #0074aa 2px solid;
+    div {
+      display: block;
+      grid-column: 1 / 2;
+      width: max-content;
+    }
+  }
+  .footer-nav {
+    margin: 1rem;
+    border: #0074aa 2px solid;
+    div {
+      display: block;
+      grid-column: 2 / 3;
+      width: 5rem;
+    }
   }
 }

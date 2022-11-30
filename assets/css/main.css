@@ -2,23 +2,23 @@
 header {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  height: 90px;
+  grid-template-rows: 90px;
   width: 100%;
 }
 header .main-header {
   font-size: 3rem;
   font-family: "Caveat Brush", Courier, monospace;
-  grid-column: 0/1;
+  grid-column: 1/2;
   border: 2px dashed lime;
 }
 header .nav-content {
-  display: flex;
-  grid-column: 1/2;
-  border: 2px solid pink;
+  grid-column: 2/3;
+  border: 2px dashed pink;
 }
 header .nav-content li {
   list-style: none;
   font-size: 1.25rem;
+  display: flex;
   width: 100%;
   justify-content: space-evenly;
 }

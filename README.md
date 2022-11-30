@@ -4,6 +4,8 @@
 
 Live328 is designed to help raise awareness of human trafficking around the world, but especially within North America.
 
+Why 328? The Slavery Abolition Act received Royal Assent in Canada on the 28th of August 1833. We combined the '33 and 28 made 328 (3^2^ 8)
+
 ## Our Purpose
 
 Many many years ago, slavery was abolished. However, in the 21st century, it is clear that there are still many people living in slavery; In fact, human trafficking is one of the fastest growing crimes in the world.

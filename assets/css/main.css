@@ -1,30 +1,174 @@
 @import url(https://fonts.googleapis.com/css?family=Caveat+Brush:regular);
+html,
+body {
+  height: 100%;
+}
+
 header {
+  color: white;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 90px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 80px;
+  background-color: rgb(38, 192, 154);
 }
 header .main-header {
   font-size: 3rem;
   font-family: "Caveat Brush", Courier, monospace;
   grid-column: 1/2;
-  border: 2px dashed lime;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
 }
 header .nav-content {
-  grid-column: 2/3;
-  border: 2px dashed pink;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 header .nav-content li {
   list-style: none;
-  font-size: 1.25rem;
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
+  font-size: 1.5rem;
+  display: inline;
 }
 header .nav-content li a {
-  color: black;
+  color: white;
 }
 header .nav-content li a:hover {
   color: gray;
+}
+
+main {
+  margin-top: 15px;
+  min-height: 100%;
+  margin-bottom: -100px;
+}
+main:after {
+  content: "";
+  display: block;
+  height: 100px;
+}
+main h2 {
+  display: flex;
+  place-content: center;
+  margin: 0 0 50px 0;
+}
+main .columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+main .columns .who {
+  grid-column: 1/2;
+  border: 1px solid black;
+  border-radius: 2rem;
+  margin: 0 15px;
+  padding: 15px;
+}
+main .columns .who h3,
+main .columns .who p {
+  display: flex;
+  place-content: center;
+}
+main .columns .who p {
+  text-align: center;
+  padding: 0 25px;
+}
+main .columns .what {
+  grid-column: 2/3;
+  border: 1px solid black;
+  border-radius: 2rem;
+  margin: 0 15px;
+  padding: 15px;
+}
+main .columns .what h3,
+main .columns .what p {
+  display: flex;
+  place-content: center;
+}
+main .columns .what p {
+  text-align: center;
+  padding: 0 25px;
+}
+main .columns .why {
+  grid-column: 3/4;
+  border: 1px solid black;
+  border-radius: 2rem;
+  margin: 0 15px;
+  padding: 15px;
+}
+main .columns .why h3,
+main .columns .why p {
+  display: flex;
+  place-content: center;
+}
+main .columns .why p {
+  text-align: center;
+  padding: 0 25px;
+}
+main .columns .how {
+  grid-column: 4/5;
+  border: 1px solid black;
+  border-radius: 2rem;
+  margin: 0 15px;
+  padding: 15px;
+}
+main .columns .how h3,
+main .columns .how p {
+  display: flex;
+  place-content: center;
+}
+main .columns .how p {
+  text-align: center;
+  padding: 0 25px;
+}
+
+footer {
+  height: 100px;
+  background-color: lightgray;
+}
+footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+footer .footer-cols ul {
+  list-style: none;
+}
+footer .footer-cols a {
+  color: black;
+  font-style: italic;
+}
+footer .footer-cols a:hover {
+  color: gray;
+}
+footer .footer-cols .contact {
+  grid-column: 1/2;
+  margin: 0 15px;
+}
+footer .footer-cols .contact h3,
+footer .footer-cols .contact a {
+  display: flex;
+  justify-content: center;
+}
+footer .footer-cols .copyright {
+  grid-column: 2/3;
+  margin: 0 15px;
+}
+footer .footer-cols .copyright p {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+footer .footer-cols .footer-nav {
+  grid-column: 3/4;
+  margin: 0 15px;
+}
+footer .footer-cols .footer-nav h3,
+footer .footer-cols .footer-nav a {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

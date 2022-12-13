@@ -84,14 +84,12 @@ main p {
   align-items: center;
 }
 main .columns {
-  margin-top: 25vh;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  margin-top: 100vh;
+  display: flex;
   width: 100%;
   z-index: 0;
 }
 main .columns .who {
-  grid-column: 1/2;
   border: 1px solid black;
   border-radius: 2rem;
   margin: 0 15px;
@@ -107,7 +105,6 @@ main .columns .who p {
   padding: 0 25px;
 }
 main .columns .what {
-  grid-column: 2/3;
   border: 1px solid black;
   border-radius: 2rem;
   margin: 0 15px;
@@ -123,7 +120,6 @@ main .columns .what p {
   padding: 0 25px;
 }
 main .columns .why {
-  grid-column: 3/4;
   border: 1px solid black;
   border-radius: 2rem;
   margin: 0 15px;
@@ -199,4 +195,71 @@ footer .footer-cols .footer-nav h3,
 footer .footer-cols .footer-nav a {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 1065px) {
+  .columns {
+    flex-direction: column;
+  }
+  .columns .who {
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 0 15px;
+    padding: 15px;
+  }
+  .columns .who h3,
+.columns .who p {
+    display: flex;
+    place-content: center;
+  }
+  .columns .who p {
+    text-align: center;
+    padding: 0 25px;
+  }
+  .columns .what {
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 0 15px;
+    padding: 15px;
+  }
+  .columns .what h3,
+.columns .what p {
+    display: flex;
+    place-content: center;
+  }
+  .columns .what p {
+    text-align: center;
+    padding: 0 25px;
+  }
+  .columns .why {
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 0 15px;
+    padding: 15px;
+  }
+  .columns .why h3,
+.columns .why p {
+    display: flex;
+    place-content: center;
+  }
+  .columns .why p {
+    text-align: center;
+    padding: 0 25px;
+  }
+  .columns .how {
+    grid-column: 4/5;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 0 15px;
+    padding: 15px;
+  }
+  .columns .how h3,
+.columns .how p {
+    display: flex;
+    place-content: center;
+  }
+  .columns .how p {
+    text-align: center;
+    padding: 0 25px;
+  }
 }/*# sourceMappingURL=main.css.map */
